@@ -13,6 +13,10 @@
 		D231ECD71E5D68230080053B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D231ECD51E5D68230080053B /* Main.storyboard */; };
 		D231ECD91E5D68230080053B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D231ECD81E5D68230080053B /* Assets.xcassets */; };
 		D231ECDC1E5D68230080053B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D231ECDA1E5D68230080053B /* LaunchScreen.storyboard */; };
+		D231ECEB1E5D7CD00080053B /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D231ECE91E5D7CD00080053B /* SetupViewController.m */; };
+		D231ECEC1E5D7CD00080053B /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D231ECEA1E5D7CD00080053B /* SetupViewController.xib */; };
+		D231ECF31E5D887F0080053B /* MemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D231ECF11E5D887F0080053B /* MemberListViewController.m */; };
+		D231ECF41E5D887F0080053B /* MemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D231ECF21E5D887F0080053B /* MemberListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		D231ECD81E5D68230080053B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D231ECDB1E5D68230080053B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D231ECDD1E5D68230080053B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D231ECE81E5D7CD00080053B /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		D231ECE91E5D7CD00080053B /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		D231ECEA1E5D7CD00080053B /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		D231ECF01E5D887F0080053B /* MemberListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemberListViewController.h; path = ../MemberListViewController.h; sourceTree = "<group>"; };
+		D231ECF11E5D887F0080053B /* MemberListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemberListViewController.m; path = ../MemberListViewController.m; sourceTree = "<group>"; };
+		D231ECF21E5D887F0080053B /* MemberListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MemberListViewController.xib; path = ../MemberListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,14 @@
 		D231ECCB1E5D68230080053B /* ObjectiveC_Example3 */ = {
 			isa = PBXGroup;
 			children = (
+				D231ECF01E5D887F0080053B /* MemberListViewController.h */,
+				D231ECF11E5D887F0080053B /* MemberListViewController.m */,
+				D231ECF21E5D887F0080053B /* MemberListViewController.xib */,
 				D231ECCF1E5D68230080053B /* AppDelegate.h */,
 				D231ECD01E5D68230080053B /* AppDelegate.m */,
+				D231ECE81E5D7CD00080053B /* SetupViewController.h */,
+				D231ECE91E5D7CD00080053B /* SetupViewController.m */,
+				D231ECEA1E5D7CD00080053B /* SetupViewController.xib */,
 				D231ECD21E5D68230080053B /* ViewController.h */,
 				D231ECD31E5D68230080053B /* ViewController.m */,
 				D231ECD51E5D68230080053B /* Main.storyboard */,
@@ -137,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D231ECF41E5D887F0080053B /* MemberListViewController.xib in Resources */,
+				D231ECEC1E5D7CD00080053B /* SetupViewController.xib in Resources */,
 				D231ECDC1E5D68230080053B /* LaunchScreen.storyboard in Resources */,
 				D231ECD91E5D68230080053B /* Assets.xcassets in Resources */,
 				D231ECD71E5D68230080053B /* Main.storyboard in Resources */,
@@ -150,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D231ECF31E5D887F0080053B /* MemberListViewController.m in Sources */,
+				D231ECEB1E5D7CD00080053B /* SetupViewController.m in Sources */,
 				D231ECD41E5D68230080053B /* ViewController.m in Sources */,
 				D231ECD11E5D68230080053B /* AppDelegate.m in Sources */,
 				D231ECCE1E5D68230080053B /* main.m in Sources */,
@@ -276,6 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "favorie.ObjectiveC-Example3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,6 +308,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "favorie.ObjectiveC-Example3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
